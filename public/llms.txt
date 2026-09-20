@@ -1,0 +1,45 @@
+# NeighborhoodGuide - llms.txt
+
+> LLM-readable manifest following the https://llmstxt.org spec. What we are, who we serve, what we do, and how we price it — in plain text for AI agents and answer engines.
+
+## Name & positioning
+- Product name: NeighborhoodGuide
+- Tagline: Neighborhood blurbs that make the location the hero.
+- Domain: https://neighborhoodguide.lxsaihub.com/
+- Language: English (en)
+
+## What it does
+- Given a neighborhood and who's moving there, get a lifestyle-focused description for listings, relocation packets, or your site.
+- Lifestyle framing
+- Buyer-matched
+- Nearby highlights
+- Relocation-ready
+
+## Pricing (USD)
+- **Free** — $0 — 4 blurbs/mo
+- **Pro** — $15/mo — Unlimited, save history
+- Checkout: https://neighborhoodguide.lxsaihub.com/api/checkout?cycle=monthly (monthly) / https://neighborhoodguide.lxsaihub.com/api/checkout?cycle=yearly (yearly)
+
+## FAQ (high-signal Q&A for AI citation)
+Q1. Do I need to install anything?
+A1. No. NeighborhoodGuide runs in your browser.
+Q2. Is my input kept private?
+A2. We use it only to generate your result and minimize retention. See Security.
+Q3. Does it guarantee compliance / correctness?
+A3. No. It is decision-support; you own the final call. See the honesty note in Security.
+Q4. Can I export the result?
+A4. Yes — JSON and CSV.
+Q5. Is there an API?
+A5. Yes, the web form is backed by a REST endpoint you can call from your pipeline.
+
+## Key pages
+- Home / landing: https://neighborhoodguide.lxsaihub.com/
+- This manifest: https://neighborhoodguide.lxsaihub.com/llms.txt
+
+## Integration & delivery
+- Web app (Next.js) deployed on Vercel
+- Payments via Waffo Pancake (merchant of record)
+- Analytics via Umami
+
+## Contact
+- Open the app: https://neighborhoodguide.lxsaihub.com/

@@ -1,0 +1,3 @@
+import Head from 'next/head'
+export default function Page(){return <Head><title>x</title></Head>}
+Define X in plain terms A step-by-step for 5 recurring errors Trade-offs: speed
